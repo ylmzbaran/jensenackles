@@ -370,3 +370,9 @@ body{
     }
 }
 
+@media only screen and (max-width: 430px) {
+    .tvfg{
+        font-size: 12px !important;
+    }
+}
+
