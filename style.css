@@ -332,5 +332,41 @@ body{
         flex-direction: column;
         margin: auto;
     }
-    
+
+    .gsct1{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 10px;
+    } 
 }
+
+@media only screen and (max-width: 600px) {
+    .sldr1{
+        width: 300px !important;
+    }
+
+    .sldr2{
+        width: 350px !important;
+    }
+
+    .sldr3{
+        width: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .sldr1{
+        width: 250px !important;
+    }
+
+    .sldr2{
+        width: 300px !important;
+    }
+
+    .sldr3{
+        width: 300px !important;
+    }
+}
+
