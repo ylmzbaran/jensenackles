@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto1 img{
+    width: 400px;
+}
+
+.icerik1 h1{
+    font-size: 5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icerik1 p{
+    max-width: 600px;
+    font-size: 14px;
+    
+}
+
+.sectn1{
+    margin-top: 80px;
+}
+
+.cizgi1{
+    border-style:inset;
+    margin-top: 0;
+    border-width: 10px;
+    border-color: black;
+}
+
+.sec2 h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sectn2{
+    margin-top: 80px;
+}
+
+.af1{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.icerik2 p{
+    max-width: 900px;
+}
+
+.af-foto img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.af2{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: right;
+}
+
+.af3{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.af3 div p{
+    color: white;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.af2 div p{
+    color: white;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.af1 div p{
+    color: white;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.af4 div p{
+    color: white;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.af4{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.af4 div img{
+    object-position: top;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.sec3 h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 80px;
+}
+
+.sectn3{
+    margin-top: 80px;
+}
+
+.foto2 img{
+    width: 400px;
+}
+
+.af5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icerik3 p{
+    max-width: 600px;
+}
+
+.icerik3 h1{
+    font-size: 3.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 40px;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.navbar .navbar-nav .nav-link{
+    border-radius: 20px;
+}
+
+.gsct1{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.gsctn1{
+    margin-top: 100px;
+}
+
+.fotoj img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-position: top;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.fotoj{
+    display: flex;
+    justify-content: center;
+}
+
+.hscn1{
+    width: 350px;
+    height: 600px;
+    background-color: rgb(218, 214, 214);
+    border: solid black 1px;
+    text-align: center;
+}
+
+.hscn1 h4{
+    margin-top: 10px;
+}
+
+.hsctn1{
+    margin-top: 80px;
+}
+
+.hknd{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hscn2 p{
+    max-width: 800px;
+}
+
+.fgscn1 table tbody tr a{
+    color: black;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar .navbar-nav .nav-link{
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .hscn2 p{
+        max-width: 600px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .hscn2 p{
+        max-width: 500px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .hscn2 p{
+        max-width: 350px;
+        font-size: 12px;
+    }
+
+    .hscn1{
+        width: 300px;
+        height: 500px;
+    }
+
+    .fotoj img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-position: top;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+
+    .foto2 img{
+        width: 350px;
+    }
+
+    .icerik3 p{
+        max-width: 600px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .hknd{
+        display:block;
+        margin-top: -20px;
+    }
+
+    .af1{
+        display: flex;
+        flex-direction: column;
+    }
+    .af2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .af3{
+        display: flex;
+        flex-direction: column;
+    }
+    .af4{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .af5{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .af-foto img{
+        display: flex;
+        margin:auto;
+    }
+    .foto1 img{
+        width: 370px;
+        
+    }
+    .icerik2 p{
+        margin-top: 0px;
+    }
+   
+    
+}
