@@ -220,13 +220,6 @@ body{
     color: black;
 }
 
-@media only screen and (max-width: 991px) {
-    .navbar .navbar-nav .nav-link{
-        margin-top: 20px;
-        text-align: center;
-    }
-}
-
 @media only screen and (max-width: 1399px) {
     .hscn2 p{
         max-width: 600px;
@@ -242,6 +235,14 @@ body{
 }
 
 @media only screen and (max-width: 991px) {
+    .navbar .navbar-nav .nav-link{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #af-fotop img{
+        margin-bottom: 30px;
+    }
+
     .hscn2 p{
         max-width: 350px;
         font-size: 12px;
@@ -339,6 +340,10 @@ body{
         margin: auto;
         gap: 10px;
     } 
+
+    #af-fotop img{
+        margin-bottom: 0px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
