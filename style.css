@@ -319,5 +319,18 @@ body{
     .foto2 img{
         width: 300px;
     }
+
+    .hscn2{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: 298px;
+    }
+
+    .hscn1{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
     
 }
