@@ -302,12 +302,22 @@ body{
         margin:auto;
     }
     .foto1 img{
-        width: 370px;
+        display: flex;
+        margin: auto;
+       width: 330px;
         
     }
     .icerik2 p{
         margin-top: 0px;
     }
-   
+    
+    .sec1{
+        display: block;
+    
+    }
+
+    .foto2 img{
+        width: 300px;
+    }
     
 }
