@@ -220,6 +220,16 @@ body{
     color: black;
 }
 
+.ftrblck{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
 @media only screen and (max-width: 1399px) {
     .hscn2 p{
         max-width: 600px;
