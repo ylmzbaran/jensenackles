@@ -5,6 +5,8 @@
 
 body{
     background-color: rgb(255, 255, 255);
+    height: 100%;
+    margin: 0;
 }
 
 .sec1{
@@ -163,7 +165,9 @@ body{
 
 .gsct1{
     display: flex;
+
     text-align: center;
+    
     margin-top: 20px;
     
 }
@@ -201,7 +205,6 @@ body{
 
 .hsctn1{
     margin-top: 80px;
-    margin-bottom: 81px;
 }
 
 .hknd{
@@ -220,11 +223,32 @@ body{
 .ftrblck{
     background-color: black;
     color: white;
-    text-align: center;
-    padding: 20px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ftrblck p{
+   margin: 0;
 }
 
 .fgsctn1{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.df p a{
+    color: black;
+}
+
+.df h2{
+    margin-bottom: 20px;
+}
+
+.dahafazla{
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -283,6 +307,10 @@ body{
 }
 
 @media only screen and (max-width: 767px) {
+    .df{
+       display: flex;
+       justify-content: center;    
+    }
     .hknd{
         display:block;
         margin-top: -20px;
