@@ -24,7 +24,6 @@ body{
 .icerik1 p{
     max-width: 600px;
     font-size: 14px;
-    
 }
 
 .sectn1{
@@ -53,10 +52,18 @@ body{
     display: flex;
     align-items: center;
     gap: 50px;
+    justify-content: center;
 }
 
 .icerik2 p{
-    max-width: 900px;
+    max-width: 600px;
+    margin: auto;
+    color: white;
+}
+.icerik2-2 p{
+    max-width: 600px;
+    margin: auto;
+    color: white;
 }
 
 .af-foto img{
@@ -64,6 +71,7 @@ body{
     height: 300px;
     object-fit: cover;
     border-radius: 100%;
+    box-shadow: 5px 5px 8px 1px;
 }
 
 .af2{
@@ -71,7 +79,7 @@ body{
     display: flex;
     align-items: center;
     gap: 50px;
-    justify-content: right;
+    justify-content: center;
 }
 
 .af3{
@@ -79,42 +87,29 @@ body{
     display: flex;
     align-items: center;
     gap: 50px;
-    
+    justify-content: center;    
 }
 
-.af3 div p{
-    color: white;
+.icerik2{
     background-color: black;
     padding: 30px;
     border-radius: 10px;
+    box-shadow: 2px 2px 8px 1px;
 }
-
-.af2 div p{
-    color: white;
+.icerik2-2{
     background-color: black;
     padding: 30px;
     border-radius: 10px;
+    box-shadow: 2px 2px 8px 1px;
 }
 
-.af1 div p{
-    color: white;
-    background-color: black;
-    padding: 30px;
-    border-radius: 10px;
-}
-
-.af4 div p{
-    color: white;
-    background-color: black;
-    padding: 30px;
-    border-radius: 10px;
-}
 
 .af4{
     margin-top: 50px;
     display: flex;
     align-items: center;
     gap: 100px;
+    justify-content: center;
 }
 
 .af4 div img{
@@ -143,7 +138,7 @@ body{
 .af5{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .icerik3 p{
@@ -323,9 +318,6 @@ body{
        width: 330px;
         
     }
-    .icerik2 p{
-        margin-top: 0px;
-    }
     
     .sec1{
         display: block;
@@ -358,6 +350,10 @@ body{
 
     #af-fotop img{
         margin-bottom: 0px;
+    }
+    
+    .icerik2-2{
+        margin-top: -50px;
     }
 }
 
